@@ -1,0 +1,38 @@
+.section-2 {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+
+    h3 {
+        width: 406px;
+        height: 100px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        color: #fff;
+        margin-bottom: 19px;
+    }
+
+    p {
+        width: 550px;
+        height: 48px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        width: 166px;
+        height: 27px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #62e0d9;
+        gap: 6px;
+        border-bottom: 1px solid #62e0d9;
+        ;
+    }
+}
