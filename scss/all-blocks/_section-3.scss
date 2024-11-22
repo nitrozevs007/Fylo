@@ -1,4 +1,56 @@
 .section-3 {
     display: flex;
     flex-direction: column;
+    padding-bottom: 260px;
+
+    .string {
+        margin-top: 50px;
+    }
+
+    ul {
+        display: flex;
+        margin-top: 50px;
+        gap: 40px;
+
+        li {
+            box-shadow: 5px 5px 8px 0 rgba(56, 56, 56, 0.1);
+            background: #202a3c;
+            border-radius: 4px;
+            padding: 40px 25px 25px 25px;
+            color: #fff;
+
+            .first-p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                letter-spacing: 0.04em;
+                color: #fff;
+                margin-bottom: 24px;
+            }
+
+            .profil {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .name {
+                    h6 {
+                        font-weight: 700;
+                        font-size: 10px;
+                        line-height: 120%;
+                        letter-spacing: 0.05em;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 8px;
+                        line-height: 125%;
+                        letter-spacing: 0.08em;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
 }

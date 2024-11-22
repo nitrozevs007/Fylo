@@ -13,7 +13,15 @@ body p {
 }
 
 body {
+  font-family: "Raleway", sans-serif;
+}
+
+.main {
   background: #181f2b;
+}
+
+.main-2 {
+  background: #19212f;
 }
 
 ul {
@@ -31,6 +39,14 @@ img {
 }
 
 .container {
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.container-2 {
   max-width: 100%;
   width: 1200px;
   margin: 0 auto;
@@ -128,6 +144,70 @@ img {
   color: #fff;
 }
 
+footer {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+footer .others {
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+footer .others .location {
+  display: flex;
+}
+footer .others .location p {
+  width: 339px;
+  height: 72px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+footer .others .contact .phone {
+  display: flex;
+  gap: 24px;
+}
+footer .others .contact .phone a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+footer .others .contact .mail {
+  display: flex;
+  gap: 24;
+}
+footer .others .contact .mail a {
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+footer .others .aboutus ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .others .aboutus ul a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+footer .others .contactus ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .others .contactus ul a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
 .section-2 {
   display: flex;
   align-items: center;
@@ -166,4 +246,105 @@ img {
 .section-3 {
   display: flex;
   flex-direction: column;
+  padding-bottom: 260px;
+}
+.section-3 .string {
+  margin-top: 50px;
+}
+.section-3 ul {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+.section-3 ul li {
+  box-shadow: 5px 5px 8px 0 rgba(56, 56, 56, 0.1);
+  background: #202a3c;
+  border-radius: 4px;
+  padding: 40px 25px 25px 25px;
+  color: #fff;
+}
+.section-3 ul li .first-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.section-3 ul li .profil {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-3 ul li .profil .name h6 {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.section-3 ul li .profil .name p {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 125%;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.section-4 {
+  position: absolute;
+  width: 863px;
+  height: 275px;
+  left: 168px;
+  top: -130px;
+  padding: 42px 77px;
+  border-radius: 9px;
+  width: 863px;
+  height: 275px;
+  box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #1b2330;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-4 h4 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.section-4 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  width: 673px;
+  height: 42px;
+  margin-bottom: 38px;
+}
+.section-4 .inputs {
+  display: flex;
+  gap: 30px;
+}
+.section-4 .inputs input {
+  width: 480px;
+  height: 48px;
+  border-radius: 24px;
+  box-shadow: 2px 3px 6px 0 rgba(7, 4, 59, 0.16);
+  font-weight: 400;
+  font-size: 12px;
+  color: #c0c0c0;
+  padding: 16px 210px 16px 38px;
+}
+.section-4 .inputs button {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  padding: 15px 26px;
+  border-radius: 24px;
+  background: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+  box-shadow: 2px 3px 6px 0 rgba(7, 4, 59, 0.16);
 }/*# sourceMappingURL=main.css.map */
