@@ -1,16 +1,22 @@
 .section-3 {
     display: flex;
     flex-direction: column;
-    padding-bottom: 260px;
+    padding-bottom: 260px; margin-top: 50px;
+    position: relative;
+        
 
     .string {
-        margin-top: 50px;
+       position: absolute;
+       top: 15px;
+       left: -10px;
+       z-index: 1;
     }
 
     ul {
         display: flex;
         margin-top: 50px;
         gap: 40px;
+        z-index: 2;
 
         li {
             box-shadow: 5px 5px 8px 0 rgba(56, 56, 56, 0.1);
